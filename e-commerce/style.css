@@ -1,0 +1,184 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:none;
+    font-family: Garamond (serif);
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color:rgb(0, 138, 252);
+    padding:15px 30px;
+    text-align: center;
+    position:relative;
+    height: 54%;
+}
+.label1{
+    font-size: 64px;
+    font-weight: 900;
+    position: relative;
+    left: 7%;
+    font-family: revert;
+    top: -1px;
+    
+}
+.label2 {
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+    left: 664px;
+    font-family: revert;
+    top: 15px;
+}
+
+
+                                       /*profile image CSS */
+
+.profileimage{                              
+    font-size: 46px;
+    background:rgb(255, 38, 0);    
+    width: 5%;
+    height: 63px;
+    border-radius: 50px;
+}
+nav .profileimage i{
+    position: relative;
+    top: 10%;
+}
+.profileimage{
+       transform: scale(0.99);
+       transition: none;
+}
+.profileimage:hover{
+    transform: scale(1.2);
+}
+                                          /* Nav bar*/
+
+.a{
+    position: absolute;
+    background-color: black;
+    top: 99%;
+    right:0%;
+   }
+nav .a ol{
+     display: flex;
+     list-style:none;
+     margin: auto 0;
+     position: absolute;
+     left:33%;
+}
+
+nav .a ol li{
+    margin: 0 37px;   
+    text-decoration: none;
+}
+nav .a ol li a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+}
+nav .a ol li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight:bold;
+    padding-right: 10px;
+    padding: 9px 16px 12px 14px;
+    margin: 20px 10px 15px 20px;
+
+}
+.label3 div {
+    color: #fff;
+    font-family: 'Shizuru', cursive;
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    text-transform: uppercase;
+    padding: 0px 19px 10px 10px;
+    bottom: -5px;
+}
+
+                                            /* Search bar*/
+
+nav .search_box{
+    display: flex;
+    height: 40px;
+    margin: auto 0;
+    line-height: 35px;
+    position: absolute;
+    left: 33%;
+    bottom: 33%;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    position: relative;
+    background-color:#fff;
+    height: 100%;
+    width: 350px;
+    padding: 0 0px 0 10px;
+    font-size: 20px;
+    border-radius: 18px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+nav .search_box i{
+    color: black;
+    font-weight: 600;
+    background: #fff;
+    font-size: 20px;
+    height: 100%; 
+    position:relative;
+    cursor: pointer;
+    border-radius: 18px;
+    border-bottom-left-radius:0%;
+    border-top-left-radius:0%;
+    z-index: 1;
+    padding: 7px 10px 20px 10px;
+}
+nav .search_box i::after{
+    background-color:rgb(255, 4, 4);
+    height: 100%;
+    position:absolute;
+    content:'';
+    right:0;
+    top:0;
+    border-radius: 18px;
+    border-bottom-left-radius:0%;
+    border-top-left-radius:0%;
+    z-index:-1;
+    width:0%;   
+    transition: 0.3s;
+}
+nav .search_box i:hover::after{
+    width: 100%;
+}
+
+
+.clm{
+    float: left;
+    width: 50%;
+    padding: 3px;
+}
+.clm img{
+    height: 650px;
+}
+.image::after {
+    content: "Bazaar";
+    position: absolute;
+    transform: rotate(-35deg);
+    left: 364px;
+    top: 271px;
+    font-size: 285px;
+    color: rgba(255, 0, 0, 0.705);
+    z-index: 0;
+    opacity: -200px;
+}
+.image {
+    padding: 55px 5px 5px 5px;
+}
