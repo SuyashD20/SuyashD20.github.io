@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/C:\Users\suyash\Desktop\html stuff\style\payment_form.css">
+    <title>PAYMENT form</title>
+
+</head>
+<body>
+    <div class=container>
+        <form >
+        <header>PAYMENT FORM</header>
+        <h2 class=box>PERSONAL INFORMATION</h2>
+        <p>NAME*:
+         <input type="name" required placeholder=NAME></p>
+        <p>LAST NAME*:
+             <input type="name" required placeholder=LAST&nbsp;NAME></p>
+        <fieldset>
+            <legend>GENDER</legend>
+            MALE <input type="radio" name="gender" id="male"> FEMALE <input type="radio" name="gender" id="female">
+        </fieldset> 
+      
+       <p>ADDRESS*: <br>
+          <textarea name="address" id="address" cols="100" rows="7" required placeholder=YOUR&nbsp;ADDRESS></textarea>
+        </p>
+       <p>E-MAIL*: 
+           <input type="email" name="email" id="email" required placeholder=xxxxx@gmail.com></p>
+       <p>PINCODE*:  
+           <input type="number" name="number" id="number" required placeholder=******></p>
+       <hr class=line>
+
+
+        <!--PAYMENT INFORMATION-->
+
+
+       <h2 class=box>PAYMENT INFORMATION</h2>
+         <p>  CARD TYPE*: <img src="C:\Users\suyash\Desktop\html stuff\image\rupay.png" alt="" width=7%>
+                         <img src="C:\Users\suyash\Desktop\html stuff\image\mastercard.png" alt="" width=5%>
+                         <img src="C:\Users\suyash\Desktop\html stuff\image\visa.png" alt="" width=5%>
+             <br>           
+           <select name="card_type" id="card_type" required>
+            <option value="">---select card type---</option>
+            <option value="rupay">RUPAY</option>
+            <option value="mastecard">MASTERCARD</option>
+            <option value="visa">VISA</option>
+        </select>
+       </p>
+       <p>
+           CARD NUMBER*: <br>
+           <input type="number" name="card number" id="number" required placeholder=*******> <br>
+           <br>
+           EXPIRAE DATE*: <br>
+          &nbsp; <input type="date" name="date" id="date" required > <br>
+          <br>
+           CVV*: <br>
+           &nbsp;<input type="password" name="cvv" id="password" required placeholder=****> 
+       </p>
+       <p>
+           <input type="submit" value="Pay Now">
+       </p>
+
+       
+
+
+
+    </form>
+</div>
+</body>
+</html>
